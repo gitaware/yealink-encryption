@@ -16,7 +16,7 @@ If you do not specify an AES key a new AES key will be generated.
 
 For those who like to click a python pysimplegui gui has been added. I have tried to keep the gui as close as possible to the gui used by the original Yealink Encryption Tool.
 This also means some of the naming may not be entirely clear, but if you have any questions, please do contact me.
-![Screenshot gui.py (MAC address is random)](https://raw.githubusercontent.com/trideeindhoven/yealink-encryption/main/screenshots/gui.png)
+![Screenshot gui.py (MAC address is random)](https://raw.githubusercontent.com/gitaware/yealink-encryption/main/screenshots/gui.png)
 
 # yealinkdecryption.py
 
