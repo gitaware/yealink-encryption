@@ -78,7 +78,7 @@ if mode == 'rsa':
   #print( "Encrypted provisioning file in base64 format: %s"%( yealink.extractConfig(provisioningFile.decode(), mode='RSA', keepBase64=True) ) )
   aesKey = yealink.RSADecrypt(yealink.extractAesKey(provisioningFile.decode()))
   print( "AES key found: %s"%(aesKey.decode()) )
-  print("Decrypting provisiong file...")
+  print("Decrypting provisioning file...")
 
   config = yealink.decryptAesEcb( yealink.extractConfig(provisioningFile.decode()), aesKey, padding=False )
   print( "%s"%(config.decode()) )
